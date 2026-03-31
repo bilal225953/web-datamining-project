@@ -1,3 +1,8 @@
+## Authors
+
+- Bilal Bamba
+- Maximilien Aired
+
 # Web Datamining & Semantics — AI Knowledge Assistant
 
 > **ESILV M1 — Web Datamining and Semantics Project**
@@ -147,10 +152,6 @@ Then type questions like:
 - **Embeddings**: PyKEEN (TransE, ComplEx)
 - **RAG/LLM**: Ollama (Mistral)
 
-## Authors
-
-- Bilal Bamba — ESILV 2026
-- Maximilien Aired — ESILV 2026
 
 ## License
 
