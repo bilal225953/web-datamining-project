@@ -1,0 +1,12 @@
+{
+  "rule": "Person(?p), affiliatedWith(?p, ?o), developedBy(?m, ?o) -> contributedTo(?p, ?m)",
+  "expected_inferences": [
+    "Geoffrey_Hinton contributedTo BERT (Hinton@Google, BERT by Google)",
+    "Yann_LeCun contributedTo LLaMA (LeCun@Meta, LLaMA by Meta)"
+  ],
+  "inferred": [
+    "Geoffrey_Hinton contributedTo BERT (Hinton@Google, BERT by Google)",
+    "Yann_LeCun contributedTo LLaMA (LeCun@Meta, LLaMA by Meta)"
+  ],
+  "note": "Reasoner requires Java. Expected inferences shown."
+}

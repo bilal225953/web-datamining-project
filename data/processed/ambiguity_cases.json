@@ -1,0 +1,49 @@
+[
+  {
+    "term": "Python",
+    "possible_meanings": [
+      "programming language",
+      "snake"
+    ],
+    "context": "Specialized programming languages such as Prolog were used in early AI research, but general-purpose programming languages like Python have become predominant",
+    "resolution": "In the AI/ML domain, 'Python' most likely refers to 'programming language'"
+  },
+  {
+    "term": "Apple",
+    "possible_meanings": [
+      "company",
+      "fruit"
+    ],
+    "context": "Applications\nAI and machine learning technology is used in most of the essential applications of the 2020s, including:\n- search engines (such as Google Search)\n- targeting online advertisements\n- reco",
+    "resolution": "In the AI/ML domain, 'Apple' most likely refers to 'company'"
+  },
+  {
+    "term": "Transformer",
+    "possible_meanings": [
+      "deep learning architecture",
+      "electrical device",
+      "toy franchise"
+    ],
+    "context": "This growth accelerated further after 2017 with the transformer architecture",
+    "resolution": "In the AI/ML domain, 'Transformer' most likely refers to 'deep learning architecture'"
+  },
+  {
+    "term": "Bias",
+    "possible_meanings": [
+      "statistical bias",
+      "cognitive bias",
+      "model bias"
+    ],
+    "context": "In-production systems can sometimes not factor ethics and bias into their AI training processes, especially when the AI algorithms are inherently unexplainable in deep learning",
+    "resolution": "In the AI/ML domain, 'Bias' most likely refers to 'statistical bias'"
+  },
+  {
+    "term": "Attention",
+    "possible_meanings": [
+      "ML mechanism",
+      "cognitive process"
+    ],
+    "context": "The traits described below have received the most attention and cover the scope of AI research",
+    "resolution": "In the AI/ML domain, 'Attention' most likely refers to 'ML mechanism'"
+  }
+]

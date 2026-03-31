@@ -1,0 +1,29 @@
+@prefix ai: <http://example.org/ai-ontology#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema1: <http://schema.org/> .
+
+ai:Application rdfs:subClassOf schema1:Thing .
+
+ai:Dataset owl:equivalentClass schema1:Dataset .
+
+ai:Framework rdfs:subClassOf schema1:SoftwareApplication .
+
+ai:Organization owl:equivalentClass dbo:Organisation,
+        schema1:Organization .
+
+ai:Person owl:equivalentClass schema1:Person,
+        foaf:Person .
+
+ai:Publication rdfs:subClassOf schema1:ScholarlyArticle .
+
+ai:affiliatedWith owl:equivalentProperty schema1:affiliation .
+
+ai:description owl:equivalentProperty schema1:description .
+
+ai:developedBy owl:equivalentProperty schema1:author .
+
+ai:sourceURL owl:equivalentProperty schema1:url .
+

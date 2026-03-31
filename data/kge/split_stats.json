@@ -1,0 +1,8 @@
+{
+  "total_triples": 31272,
+  "train": 25018,
+  "valid": 3127,
+  "test": 3127,
+  "unique_entities": 28685,
+  "unique_relations": 15
+}

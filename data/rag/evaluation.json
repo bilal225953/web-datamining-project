@@ -1,0 +1,58 @@
+[
+  {
+    "question": "Who developed GPT-4?",
+    "rag_answer": "Found 10 results. (Ollama unavailable, using fallback queries)",
+    "rag_sparql": "\n            PREFIX ai: <http://example.org/ai-ontology#>\n            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n            SELECT ?entity ?creator WHERE {\n                ?entity ai:developedBy ?creator .\n                ?creator rdfs:label ?name .\n            } LIMIT 10\n            ",
+    "rag_results_count": 10,
+    "baseline_answer": "Baseline unavailable (Ollama not running)",
+    "rag_steps": []
+  },
+  {
+    "question": "What field does the Transformer algorithm belong to?",
+    "rag_answer": "Found 10 results. (Ollama unavailable, using fallback queries)",
+    "rag_sparql": "\n            PREFIX ai: <http://example.org/ai-ontology#>\n            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n            SELECT ?concept ?field WHERE {\n                ?concept ai:partOfField ?field .\n                ?field rdfs:label ?fieldName .\n            } LIMIT 10\n            ",
+    "rag_results_count": 10,
+    "baseline_answer": "Baseline unavailable (Ollama not running)",
+    "rag_steps": []
+  },
+  {
+    "question": "Which organization is Geoffrey Hinton affiliated with?",
+    "rag_answer": "Found 10 results. (Ollama unavailable, using fallback queries)",
+    "rag_sparql": "\n            PREFIX ai: <http://example.org/ai-ontology#>\n            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n            SELECT ?s ?p ?o WHERE {\n                ?s ?p ?o .\n                FILTER(isURI(?o))\n            } LIMIT 10\n            ",
+    "rag_results_count": 10,
+    "baseline_answer": "Baseline unavailable (Ollama not running)",
+    "rag_steps": []
+  },
+  {
+    "question": "What models use the Transformer architecture?",
+    "rag_answer": "Found 10 results. (Ollama unavailable, using fallback queries)",
+    "rag_sparql": "\n            PREFIX ai: <http://example.org/ai-ontology#>\n            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n            SELECT ?s ?p ?o WHERE {\n                ?s ?p ?o .\n                FILTER(isURI(?o))\n            } LIMIT 10\n            ",
+    "rag_results_count": 10,
+    "baseline_answer": "Baseline unavailable (Ollama not running)",
+    "rag_steps": []
+  },
+  {
+    "question": "What is the relationship between Deep Learning and Machine Learning?",
+    "rag_answer": "Found 10 results. (Ollama unavailable, using fallback queries)",
+    "rag_sparql": "\n            PREFIX ai: <http://example.org/ai-ontology#>\n            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n            SELECT ?s ?p ?o WHERE {\n                ?s ?p ?o .\n                FILTER(isURI(?o))\n            } LIMIT 10\n            ",
+    "rag_results_count": 10,
+    "baseline_answer": "Baseline unavailable (Ollama not running)",
+    "rag_steps": []
+  },
+  {
+    "question": "Which frameworks are used to implement neural network algorithms?",
+    "rag_answer": "Found 10 results. (Ollama unavailable, using fallback queries)",
+    "rag_sparql": "\n            PREFIX ai: <http://example.org/ai-ontology#>\n            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n            SELECT ?s ?p ?o WHERE {\n                ?s ?p ?o .\n                FILTER(isURI(?o))\n            } LIMIT 10\n            ",
+    "rag_results_count": 10,
+    "baseline_answer": "Baseline unavailable (Ollama not running)",
+    "rag_steps": []
+  },
+  {
+    "question": "What datasets is BERT trained on?",
+    "rag_answer": "Found 10 results. (Ollama unavailable, using fallback queries)",
+    "rag_sparql": "\n            PREFIX ai: <http://example.org/ai-ontology#>\n            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n            SELECT ?s ?p ?o WHERE {\n                ?s ?p ?o .\n                FILTER(isURI(?o))\n            } LIMIT 10\n            ",
+    "rag_results_count": 10,
+    "baseline_answer": "Baseline unavailable (Ollama not running)",
+    "rag_steps": []
+  }
+]

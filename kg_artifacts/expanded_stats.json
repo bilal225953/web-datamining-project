@@ -1,0 +1,41 @@
+{
+  "total_triples": 98313,
+  "unique_subjects": 24926,
+  "unique_predicates": 19,
+  "unique_objects": 49750,
+  "type_distribution": {
+    "Concept": 7886,
+    "Organization": 7111,
+    "Person": 5758,
+    "Model": 1425,
+    "Algorithm": 18,
+    "Subfield": 14,
+    "ObjectProperty": 11,
+    "Framework": 10,
+    "Class": 10,
+    "Dataset": 6,
+    "DatatypeProperty": 5,
+    "Application": 3
+  },
+  "predicate_distribution": {
+    "label": 22404,
+    "sourceURL": 22307,
+    "description": 22288,
+    "type": 22257,
+    "relatedTo": 7680,
+    "usesAlgorithm": 507,
+    "partOfField": 174,
+    "createdBy": 145,
+    "developedBy": 127,
+    "appliedTo": 118,
+    "publishedIn": 109,
+    "trainedOn": 62,
+    "implementedIn": 44,
+    "comment": 26,
+    "affiliatedWith": 25,
+    "range": 16,
+    "domain": 11,
+    "succeeds": 10,
+    "subClassOf": 3
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "articles_processed": 60,
+  "total_entities": 34515,
+  "unique_entities": 22423,
+  "total_triples": 8218,
+  "ambiguity_cases": 23,
+  "entity_types": {
+    "ORG": 7889,
+    "GPE": 3035,
+    "WORK_OF_ART": 1366,
+    "PRODUCT": 344,
+    "DATE": 8161,
+    "PERSON": 9571,
+    "CARDINAL": 3278,
+    "NORP": 576,
+    "LOC": 97,
+    "EVENT": 102,
+    "FAC": 96
+  },
+  "top_10_entities": [
+    [
+      "AI",
+      67
+    ],
+    [
+      "pp",
+      67
+    ],
+    [
+      "one",
+      51
+    ],
+    [
+      "978",
+      49
+    ],
+    [
+      "two",
+      48
+    ],
+    [
+      "PDF",
+      47
+    ],
+    [
+      "2018",
+      44
+    ],
+    [
+      "ISSN",
+      44
+    ],
+    [
+      "11",
+      42
+    ],
+    [
+      "2016",
+      41
+    ]
+  ]
+}

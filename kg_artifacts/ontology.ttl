@@ -1,0 +1,139 @@
+@prefix ai: <http://example.org/ai-ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ai:accuracy a owl:DatatypeProperty ;
+    rdfs:label "accuracy" ;
+    rdfs:comment "Benchmark accuracy score" ;
+    rdfs:range xsd:float .
+
+ai:affiliatedWith a owl:ObjectProperty ;
+    rdfs:label "affiliatedWith" ;
+    rdfs:comment "Person is affiliated with" ;
+    rdfs:domain ai:Person ;
+    rdfs:range ai:Organization .
+
+ai:appliedTo a owl:ObjectProperty ;
+    rdfs:label "appliedTo" ;
+    rdfs:comment "Algorithm applied to this domain" ;
+    rdfs:domain ai:Algorithm ;
+    rdfs:range ai:Application .
+
+ai:createdBy a owl:ObjectProperty ;
+    rdfs:label "createdBy" ;
+    rdfs:comment "Was created by a person" ;
+    rdfs:domain ai:Model ;
+    rdfs:range ai:Person .
+
+ai:description a owl:DatatypeProperty ;
+    rdfs:label "description" ;
+    rdfs:comment "Textual description" ;
+    rdfs:range xsd:string .
+
+ai:developedBy a owl:ObjectProperty ;
+    rdfs:label "developedBy" ;
+    rdfs:comment "Was developed by" ;
+    rdfs:domain ai:Concept ;
+    rdfs:range ai:Organization .
+
+ai:hasParameter a owl:DatatypeProperty ;
+    rdfs:label "hasParameter" ;
+    rdfs:comment "Key parameter or hyperparameter" ;
+    rdfs:range xsd:string .
+
+ai:implementedIn a owl:ObjectProperty ;
+    rdfs:label "implementedIn" ;
+    rdfs:comment "Algorithm implemented in framework" ;
+    rdfs:domain ai:Algorithm ;
+    rdfs:range ai:Framework .
+
+ai:partOfField a owl:ObjectProperty ;
+    rdfs:label "partOfField" ;
+    rdfs:comment "Belongs to a subfield" ;
+    rdfs:domain ai:Concept ;
+    rdfs:range ai:Subfield .
+
+ai:publishedIn a owl:ObjectProperty ;
+    rdfs:label "publishedIn" ;
+    rdfs:comment "Described in a publication" ;
+    rdfs:domain ai:Concept ;
+    rdfs:range ai:Publication .
+
+ai:relatedTo a owl:ObjectProperty ;
+    rdfs:label "relatedTo" ;
+    rdfs:comment "Is related to another concept" ;
+    rdfs:domain ai:Concept ;
+    rdfs:range ai:Concept .
+
+ai:sourceURL a owl:DatatypeProperty ;
+    rdfs:label "sourceURL" ;
+    rdfs:comment "Source URL of the information" ;
+    rdfs:range xsd:anyURI .
+
+ai:succeeds a owl:ObjectProperty ;
+    rdfs:label "succeeds" ;
+    rdfs:comment "This model succeeds another" ;
+    rdfs:domain ai:Model ;
+    rdfs:range ai:Model .
+
+ai:trainedOn a owl:ObjectProperty ;
+    rdfs:label "trainedOn" ;
+    rdfs:comment "Model trained on this dataset" ;
+    rdfs:domain ai:Model ;
+    rdfs:range ai:Dataset .
+
+ai:usesAlgorithm a owl:ObjectProperty ;
+    rdfs:label "usesAlgorithm" ;
+    rdfs:comment "Model uses this algorithm" ;
+    rdfs:domain ai:Model ;
+    rdfs:range ai:Algorithm .
+
+ai:yearIntroduced a owl:DatatypeProperty ;
+    rdfs:label "yearIntroduced" ;
+    rdfs:comment "Year the concept was introduced" ;
+    rdfs:range xsd:gYear .
+
+ai:Application a owl:Class ;
+    rdfs:label "Application" ;
+    rdfs:comment "A real-world application of AI" .
+
+ai:Dataset a owl:Class ;
+    rdfs:label "Dataset" ;
+    rdfs:comment "A benchmark dataset (e.g., ImageNet)" .
+
+ai:Framework a owl:Class ;
+    rdfs:label "Framework" ;
+    rdfs:comment "A software framework for AI/ML (e.g., PyTorch)" .
+
+ai:Publication a owl:Class ;
+    rdfs:label "Publication" ;
+    rdfs:comment "A research paper or article" .
+
+ai:Subfield a owl:Class ;
+    rdfs:label "Subfield" ;
+    rdfs:comment "A subfield of AI (e.g., NLP, Computer Vision)" ;
+    rdfs:subClassOf ai:Concept .
+
+ai:Organization a owl:Class ;
+    rdfs:label "Organization" ;
+    rdfs:comment "A company, lab, or institution in AI" .
+
+ai:Person a owl:Class ;
+    rdfs:label "Person" ;
+    rdfs:comment "A researcher or contributor in AI/ML" .
+
+ai:Algorithm a owl:Class ;
+    rdfs:label "Algorithm" ;
+    rdfs:comment "A specific ML/DL algorithm" ;
+    rdfs:subClassOf ai:Concept .
+
+ai:Model a owl:Class ;
+    rdfs:label "Model" ;
+    rdfs:comment "A trained AI model (e.g., GPT-4, BERT)" ;
+    rdfs:subClassOf ai:Concept .
+
+ai:Concept a owl:Class ;
+    rdfs:label "Concept" ;
+    rdfs:comment "An AI/ML concept or technique" .
+
